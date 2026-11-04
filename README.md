@@ -59,8 +59,8 @@ flutter run -d windows   # 也可使用 linux / android / ios / ohos
 构建：
 
 ```bash
-flutter build windows
-flutter build linux
+flutter build windows --release
+flutter build linux --release
 flutter build apk --release
 flutter build ios --release        # 需要 macOS
 flutter build hap --release        # HarmonyOS 鸿蒙
