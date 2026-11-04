@@ -41,6 +41,7 @@ Windows 标题栏会随主题切换为暗色。
 Windows · Linux · Android · iOS · HarmonyOS（鸿蒙手机 / 平板 / 电脑）
 
 目前Releases中只提供windows和Android的发布包，其它平台请自行编译；
+
 鸿蒙工程已在 `module.json5` 中声明 `phone`、`tablet`、`2in1`（电脑）三种设备类型；
 界面按宽度自动切换底部导航、图标栏与侧边栏，适配鸿蒙手机、平板和 PC 的自由窗口。
 当前版本：**v0.1.0**。
