@@ -1,0 +1,53 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "storeFile": "D:/flutter_project/数绘证书库/shuhui.p12",
+          "storePassword": "0000001BAC60E3C1CFA7B1BD31FFE775D30097A34B24176ECE4329D5F3A757FDE38A49FC64D8349F5A2488",
+          "keyAlias": "shuhuiA",
+          "keyPassword": "0000001BA316201668994267D62A5B1631483F014E04B3AAEC6FC5C6FD9664BCBC684C85AA6379C4275AD1",
+          "signAlg": "SHA256withECDSA",
+          "profile": "D:/flutter_project/数绘证书库/shuhuiRelease.p7b",
+          "certpath": "D:/flutter_project/数绘证书库/shuhui.cer"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "compatibleSdkVersion": "5.0.5(17)",
+        "targetSdkVersion": "26.0.0",
+        "runtimeOS": "HarmonyOS",
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug"
+      },
+      {
+        "name": "profile"
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}
