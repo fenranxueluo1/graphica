@@ -1,0 +1,24 @@
+name: graphica
+description: "数绘 (Graphica) - a beautiful Chinese-first cross-platform math studio: graphing, calculators, matrices, geometry and 3D."
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.11.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  flutter_math_fork:
+    path: third_party/flutter_math_fork
+  path_provider: ^2.1.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
