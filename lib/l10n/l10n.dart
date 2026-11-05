@@ -34,7 +34,7 @@ class L10n {
     'onboarding.next': '下一步',
     'onboarding.back': '上一步',
     'onboarding.start': '开始使用',
-    'onboarding.version': 'v0.1.0 · MIT 开源',
+    'onboarding.version': 'v0.1.1 · MIT 开源',
     'onboarding.page.welcome.title': '欢迎来到数绘',
     'onboarding.page.welcome.body':
         '把数学画出来。函数、计算器、矩阵、几何与 3D 曲面，都在一个安静、快速的工作台里。',
@@ -279,7 +279,7 @@ class L10n {
     'onboarding.next': 'Next',
     'onboarding.back': 'Back',
     'onboarding.start': 'Get started',
-    'onboarding.version': 'v0.1.0 · MIT',
+    'onboarding.version': 'v0.1.1 · MIT',
     'onboarding.page.welcome.title': 'Welcome to 数绘',
     'onboarding.page.welcome.body':
         'Draw the math. Functions, calculators, matrices, geometry and 3D surfaces in one calm, fast workspace.',

@@ -210,7 +210,7 @@ class _Surface3DPageState extends State<Surface3DPage> {
                         final delta = details.focalPointDelta;
                         if (delta != Offset.zero) {
                           yaw += delta.dx * 0.009;
-                          pitch = (pitch + delta.dy * 0.007).clamp(-1.35, 1.35);
+                          pitch += delta.dy * 0.007;
                         }
                         if (details.scale != _lastScale) {
                           zoom = (zoom * details.scale / _lastScale).clamp(

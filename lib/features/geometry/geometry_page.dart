@@ -152,6 +152,7 @@ class _GeometryPageState extends State<GeometryPage> {
     if (_pendingId != null &&
         (_tool == GeometryTool.segment || _tool == GeometryTool.circle)) {
       _updatePreview(details.localFocalPoint, size);
+      return;
     }
     if (_dragId != null) {
       final graph = _toGraph(details.localFocalPoint, size);

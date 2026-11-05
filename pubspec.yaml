@@ -1,7 +1,7 @@
 name: graphica
 description: "数绘 (Graphica) - a beautiful Chinese-first cross-platform math studio: graphing, calculators, matrices, geometry and 3D."
 publish_to: 'none'
-version: 0.1.0+1
+version: 0.1.1+2
 
 environment:
   sdk: ^3.11.5

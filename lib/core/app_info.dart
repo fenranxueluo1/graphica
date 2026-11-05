@@ -9,7 +9,7 @@ class AppInfo {
   static const nameEn = 'Graphica';
   static const name = nameZh;
   static const englishName = nameEn;
-  static const version = '0.1.0';
+  static const version = '0.1.1';
   static const license = 'MIT License';
   static const copyright = 'Copyright (c) 2026 数绘 contributors';
 

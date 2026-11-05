@@ -39,7 +39,7 @@ Windows · Linux · Android · iOS · HarmonyOS（鸿蒙手机 / 平板 / 电脑
 
 鸿蒙工程已在 `module.json5` 中声明 `phone`、`tablet`、`2in1`（电脑）三种设备类型；
 界面按宽度自动切换底部导航、图标栏与侧边栏，适配鸿蒙手机、平板和 PC 的自由窗口。
-当前版本：**v0.1.0**。
+当前版本：**v0.1.1**。
 
 除 Flutter SDK 自带组件外，仅使用纯 Dart/平台插件（`path_provider`），
 数学排版使用本地内置的 MIT 许可 `flutter_math_fork`（已补充鸿蒙
